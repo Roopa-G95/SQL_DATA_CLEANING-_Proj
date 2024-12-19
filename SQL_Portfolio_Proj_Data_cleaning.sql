@@ -43,7 +43,7 @@ FROM layoffs)
 DELETE FROM duplicate_cte where row_num >1;
 
 -- creating another layoff table to copy the temp column row number
--- RIGHT CLICK LYAOFFS TABLE ->COPY TO CLIPBOARD -> CREATE STATEMENT to get below query
+-- RIGHT CLICK LAYOFFS TABLE ->COPY TO CLIPBOARD -> CREATE STATEMENT to get below query
 CREATE TABLE `layoffs2` (
   `company` text,
   `location` text,
